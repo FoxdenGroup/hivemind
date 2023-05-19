@@ -1,0 +1,233 @@
+{"intents": [
+    {
+        "tag": "meaning_of_life",
+        "patterns": [
+        "What's the meaning of life?",
+        "Why are we here?",
+        "What's the point of existence?"
+        ],
+        "responses": [
+        "That's a philosophical question with many possible answers. Some believe that the meaning of life is to find happiness, others believe it's to fulfill a purpose or contribute to society."
+        ]
+    },
+
+    {
+        "tag": "philosophy",
+        "patterns": [
+        "What is the meaning of life?",
+        "What is truth?",
+        "What is the nature of reality?"
+        ],
+        "responses": [
+        "The meaning of life is a deeply personal question and can vary from person to person. In philosophy, there are many different approaches to answering this question.",
+        "Truth is a complex philosophical concept that has been debated for centuries. There are many theories of truth, including the correspondence theory, coherence theory, and pragmatism.",
+        "The nature of reality is another deep philosophical question that has puzzled thinkers throughout history. Different philosophical schools have proposed various answers, ranging from realism to idealism."
+        ]
+    },
+
+    {
+        "tag": "ethics",
+        "patterns": [
+        "Is it ever morally justifiable to kill another person?",
+        "What is the difference between right and wrong?",
+        "What is the meaning of justice?"
+        ],
+        "responses": [
+        "The question of whether it is ever morally justifiable to kill another person is a complex one that has been debated by philosophers for centuries.",
+        "The difference between right and wrong is another fundamental philosophical question. Different ethical theories have proposed various answers to this question.", "Justice is a central concept in ethics and political philosophy. There are many different theories of justice, including utilitarianism, deontology, and virtue ethics."
+        ]
+    },
+
+    {
+        "tag": "metaphysics",
+        "patterns": [
+        "What is the relationship between mind and body?",
+        "What is the nature of time?",
+        "What is the nature of causation?"
+        ],
+        "responses": [
+        "The relationship between mind and body is a key question in metaphysics. Different philosophical schools have proposed various answers to this question.",
+        "The nature of time is another deep philosophical question that has puzzled thinkers throughout history. Different philosophical schools have proposed various answers, ranging from presentism to eternalism.",
+        "Causation is a central concept in metaphysics and epistemology. There are many different theories of causation, including Humean, Kantian, and Aristotelian."
+        ]
+    },
+
+    {
+        "tag": "philosophy-1",
+        "patterns": [
+        "What is the meaning of life?",
+        "Why do we exist?",
+        "What is the purpose of our existence?",
+        "What is the nature of reality?",
+        "What is the nature of the mind?",
+        "What is the relationship between mind and body?",
+        "What is consciousness?",
+        "What is truth?"],
+        "responses": [
+        "These are deep and complex questions that have been pondered by philosophers for centuries. There are many different philosophical theories and perspectives on these topics."
+        ]
+    },
+
+    {
+        "tag": "philosophy-2",
+        "patterns": [
+        "What is the nature of morality?",
+        "What is good and evil?",
+        "What is the right thing to do?",
+        "What is justice?",
+        "What is freedom?",
+        "What is the nature of happiness?",
+        "What is the meaning of love?",
+        "What is the source of human values?"
+        ],
+        "responses": [
+        "These are important ethical and moral questions that have been explored by philosophers throughout history. Different philosophical traditions have different answers and perspectives on these issues."
+        ]
+    },
+
+    {
+        "tag": "philosophy-3",
+        "patterns": [
+        "What is the role of science in society?",
+        "What is the relationship between science and religion?",
+        "What is the nature of knowledge?",
+        "What is the relationship between language and thought?",
+        "What is the nature of art and beauty?",
+        "What is the purpose of education?",
+        "What is the relationship between individual and society?",
+        "What is the nature of power and authority?"
+        ],
+        "responses": [
+        "These are important questions that have been explored by philosophers, scientists, and social theorists throughout history. There are many different philosophical perspectives on these topics. What is your personal view?"
+        ]
+    },
+
+    {
+        "tag": "existence",
+        "patterns": [
+        "Do we exist?",
+        "How do we know we exist?",
+        "What is existence?"
+        ],
+        "responses": [
+        "The concept of existence is fundamental in philosophy. Some argue that existence is an objective fact, while others view it as a subjective experience.",
+        "The question of whether we exist or not is a philosophical one that has puzzled thinkers for centuries.",
+        "Existence is a complex and multifaceted concept that has been explored by many different philosophical traditions."
+        ]
+    },
+
+    {
+        "tag": "free_will",
+        "patterns": [
+        "Do we have free will?",
+        "Is everything predetermined?",
+        "What is the relationship between free will and determinism?"
+        ],
+        "responses": [
+        "The question of whether we have free will is a fundamental one in philosophy. Different schools of thought have proposed different answers.",
+        "Determinism is the idea that everything that happens is predetermined by previous causes. Some argue that this means we don't have free will, while others disagree.",
+        "The relationship between free will and determinism is a complex and debated topic in philosophy."
+        ]
+    },
+
+    {
+        "tag": "epistemology",
+        "patterns": [
+        "What is knowledge?",
+        "What can we know?",
+        "How do we know what we know?",
+        "What is the relationship between belief and knowledge?",
+        "What is the difference between knowledge and opinion?"
+        ],
+        "responses": [
+        "Epistemology is the branch of philosophy concerned with knowledge and belief. It asks questions about the nature, scope, and limits of knowledge.",
+        "Different philosophical traditions have proposed various theories of knowledge, including empiricism, rationalism, and skepticism.",
+        "The difference between knowledge and belief is a fundamental philosophical question that has been explored by many different thinkers throughout history.",
+        "The relationship between belief and knowledge is a key question in epistemology. Some philosophers argue that knowledge is justified true belief, while others propose different criteria for knowledge."
+        ]
+    },
+
+    {
+        "tag": "language",
+        "patterns": [
+        "What is language?",
+        "How do we acquire language?",
+        "How do we use language to communicate?",
+        "What is the relationship between language and thought?"
+        ],
+        "responses": [
+        "Language is a complex and multifaceted phenomenon that has been studied by many different fields, including linguistics, philosophy, and psychology.",
+        "Language is essential for communication, but its use is also influenced by cultural and social factors.",
+        "The relationship between language and thought is a debated topic in philosophy and cognitive science."
+        ]
+    },
+
+    {
+        "tag": "aesthetics",
+        "patterns": [
+        "What is art?",
+        "What is beauty?",
+        "What is the purpose of art?",
+        "How does art impact society?"
+        ],
+        "responses": [
+        "Aesthetics is the branch of philosophy concerned with art and beauty. It asks questions about the nature of art and its role in society.",
+        "Different philosophical traditions have proposed various theories of art, including formalism, expressionism, and pragmatism.",
+        "Art can have a profound impact on society, influencing our beliefs, values, and emotions."
+        ]
+    },
+
+    {
+        "tag": "education",
+        "patterns": [
+        "What is education?",
+        "What is the purpose of education?",
+        "What is the role of education in society?"
+        ],
+        "responses": [
+        "Education is a broad and multifaceted concept that has been explored by many different fields, including philosophy, sociology, and psychology.",
+        "The purpose of education can vary depending on cultural, social, and political factors."
+        ]
+    },
+
+    {
+        "tag": "existence_of_god",
+        "patterns": [
+        "Does God exist?",
+        "What is the evidence for the existence of God?",
+        "What are the arguments for and against the existence of God?"
+        ],
+        "responses": [
+        "The existence of God is a central question in philosophy and religion. Different arguments have been proposed both for and against the existence of God.",
+        "There are many philosophical and theological arguments for and against the existence of God. Some of the most famous arguments include the ontological argument, the cosmological argument, and the problem of evil."
+        ]
+    },
+    {
+        "tag": "free_will",
+        "patterns": [
+        "Do we have free will?",
+        "What is free will?",
+        "What is determinism?",
+        "What is the relationship between free will and determinism?"
+        ],
+        "responses": [
+        "The question of whether we have free will is a fundamental one in philosophy. Different theories of free will have been proposed, including compatibilism, libertarianism, and hard determinism.",
+        "Determinism is the philosophical idea that all events, including human actions, are ultimately determined by causes outside of our control. The relationship between free will and determinism is a complex and debated one."
+        ]
+    },
+    {
+        "tag": "mindfulness",
+        "patterns": [
+        "What is mindfulness?",
+        "What are the benefits of mindfulness?",
+        "How can one practice mindfulness?",
+        "What is the relationship between mindfulness and meditation?"
+        ],
+        "responses": [
+        "Mindfulness is a form of meditation that involves paying attention to the present moment and cultivating a non-judgmental awareness of one's thoughts, feelings, and bodily sensations.",
+        "There are many potential benefits of mindfulness, including reduced stress, improved emotional regulation, and increased well-being.",
+        "Practicing mindfulness can involve a variety of techniques, such as mindful breathing, body scan meditation, and mindful movement.",
+        "Mindfulness and meditation are closely related, with mindfulness often being considered a type of meditation. However, there are many different types of meditation, each with its own focus and technique."
+        ]
+        }
+]}

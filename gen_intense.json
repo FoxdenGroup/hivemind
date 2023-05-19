@@ -1,0 +1,236 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": [
+        "Hello",
+        "Howdy",
+        "Hi there",
+        "Hello there",
+        "Hey",
+        "Hiya",
+        "Good to see you again",
+        "Long time no see",
+        "Good morning!",
+        "Good afternoon!",
+        "Good evening!",
+        "Hey there!",
+        "Hey friend!",
+        "Hi friend!",
+        "Hey buddy!",
+        "Hi buddy!",
+        "Hey pal!",
+        "Hi pal!",
+        "Hey dude!",
+        "Hi dude!",
+        "Hey man!",
+        "Hi man!",
+        "Hey sir!",
+        "Hi ma'am!",
+        "Hi sir!",
+        "Hello ma'am!",
+        "Hello sir!"
+        ],
+        "responses": [
+        "Hello",
+        "How can I help?",
+        "Greetings",
+        "How many I assist you?",
+        "Nice to meet you",
+        "Pleased to make your acquaintance",
+        "What brings you here today?",
+        "How's your day going so far?",
+        "How are you doing?",
+        "What's new?",
+        "Is there anything I can help you with?",
+        "How may I assist you today?",
+        "Nice to see you again",
+        "It's good to be in touch with you",
+        "What's happening?",
+        "How have you been?",
+        "Great to see you!",
+        "What's on your mind?"
+        ]
+    },   
+
+    {
+        "tag": "help",
+        "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "How do I do this?",
+        "Can you guide me?",
+        "What should I do?"
+        ],
+        "responses": [
+        "Of course, what do you need help with?",
+        "I'm here to assist you, what's the problem?",
+        "Sure, let me guide you through it if I can.",
+        "Let me know what you need help with.",
+        "I'm happy to help. What do you need assistance with?"
+        ]
+    },
+
+    {
+        "tag": "thanks",
+        "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it"
+        ],
+        "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "It was my pleasure.",
+        "Glad I could assist you.",
+        "Anytime!",
+        "Glad to assist you!",
+        "Anytime!",
+        "It was my pleasure!"
+        ]
+    },
+
+    {
+        "tag": "compliments",
+        "patterns": [
+        "Great job",
+        "You're amazing",
+        "I love your work",
+        "Impressive",
+        "Well done"
+        ],
+        "responses": [
+        "Thank you! That means a lot.",
+        "I appreciate the compliment. Thank you!",
+        "Thank you for the kind words.",
+        "Thank you, I'm glad you like it.",
+        "Thank you for the positive feedback."
+        ]
+    },
+
+    {
+        "tag": "confirm",
+        "patterns": [
+        "yes",
+        "no",
+        "that's correct",
+        "that's not right"
+        ],
+        "responses": [
+        "Got it!",
+        "Understood.",
+        "Okay.",
+        "Thanks for letting me know!"
+        ]
+    },
+
+    {
+        "tag": "about",
+        "patterns": ["who are you",
+        "what can you do",
+        "tell me about yourself"
+        ],
+        "responses": [
+        "I am an AI chatbot designed to assist you. I can help you with a wide range of tasks and answer your questions. What can I assist you with today?",
+        "I am ai_name - an AI virtual assistant."
+        ]
+    },
+
+    {
+        "tag": "name",
+        "patterns": ["what's your name",
+        "do you have a name"
+        ],
+        "responses": [
+        "My name is ai_name. How can I assist you?",
+        "You can call me ai_name. What can I assist you with today?",
+        "I'm ai_name!"
+        ]
+    },
+
+    {
+        "tag": "identity",
+        "patterns": ["what is my name",
+        "what's my name",
+        "do I have a name"
+        ],
+        "responses": [
+        "Your name is operator_name. How can I assist you?",
+        "You are identified as operator_name. What can I assist you with today?",
+        "Your operator_name!"
+        ]
+    },
+
+    {
+        "tag": "polite",
+        "patterns": [
+        "please",
+        "thank you",
+        "excuse me",
+        "sorry"
+        ],
+        "responses": [
+        "You're welcome!",
+        "No problem.",
+        "It's my pleasure to help.",
+        "No need to apologize.",
+        "Glad I could assist you.",
+        "Glad I be of assistance, operator_name."
+        ]
+    },
+
+    {
+        "tag": "friendly",
+        "patterns": [
+        "how are you",
+        "nice to meet you",
+        "what's up",
+        "how's your day"
+        ],
+        "responses": [
+        "I'm doing well, thank you. How about you?",
+        "Nice to meet you too!",
+        "Not much, just helping out.",
+        "It's been a good day so far, thanks for asking."
+        ]
+    },
+
+    {
+        "tag": "humorous",
+        "patterns": [
+        "tell me a joke",
+        "funny",
+        "make me laugh",
+        "why did the chicken cross the road"
+        ],
+        "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I'm not great at telling jokes, but I'll try my best.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the tomato turn red? Because it saw the salad dressing!"
+        ]
+    },
+
+    {
+        "tag": "goodbye",
+        "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "take care",
+        "farewell",
+        "have a nice day",
+        "have a good one",
+        "catch you later"
+        ],
+        "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!",
+        "Farewell!",
+        "Have a nice day!",
+        "Have a good one!",
+        "It was nice talking to you!",
+        "Talk to you soon!"
+        ]
+    }
+]}
