@@ -1,7 +1,7 @@
 {
 "intents": [
 {
-"tag": "RSA Definition",
+"tag": "rsa_definition",
 "patterns": [
 "What is RSA?",
 "Explain RSA encryption.",
@@ -20,7 +20,7 @@
 {
 "intents": [
 {
-"tag": "Working of RSA",
+"tag": "working_of_rsa",
 "patterns": [
 "How does RSA work?",
 "How does RSA Algorithm work?",
@@ -65,7 +65,7 @@ Example of RSA Algorithm:
 {
 "intents": [
 {
-"tag": "RSA key generation",
+"tag": "rsa_key_generation",
 "patterns": [
 "RSA key generation?",
 "Explain RSA keygeneration",
