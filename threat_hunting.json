@@ -1,0 +1,23 @@
+{"intents": [
+    {
+        "tag": "threat_hunting",
+        "patterns": [
+            "what is threat hunting?",
+            "How does threat hunting work",
+            "Tell me about threat hunting",
+            "what is the role of a threat hunter",
+        ],
+        "responses": [
+            "Threat hunting is an active and proactive approach to 
+            cybersecurity that involves actively searching for threats or 
+            indicators of compromise within an organization's network or systems. 
+            It goes beyond traditional security measures, such as antivirus software 
+            and firewalls, by actively seeking out potential threats that may have evaded 
+            detection.","The goal of threat hunting is to identify and mitigate threats before 
+            they cause significant damage or result in a data breach. 
+            It involves the use of various tools, techniques, and data analysis methods 
+            to uncover abnormal or suspicious 
+            activities that may indicate the presence of an attacker or unauthorized access."
+    ]
+}
+]}
