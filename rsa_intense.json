@@ -1,0 +1,54 @@
+{
+"intents": [
+{
+"tag": "rsa_definition",
+"patterns": [
+"What is RSA?",
+"Explain RSA encryption.",
+"Tell me about RSA algorithm.",
+"Can you provide an overview of RSA?"
+],
+"responses": [
+"RSA (Rivest-Shamir-Adleman) is a widely used asymmetric encryption algorithm in cryptography. It is named after its inventors, Ron Rivest, Adi Shamir, and Leonard Adleman. RSA is based on the mathematical properties of large prime numbers and commonly used for secure data transmission, digital signatures, and key exchange. It involves the use of a public key for encryption and a private key for decryption. The security of RSA lies in the fact that it is computationally difficult to factorize large composite numbers into their prime factors. The larger the key size used in RSA, the stronger the encryption."
+]
+}
+]
+}
+
+
+
+{
+"intents": [
+{
+"tag": "working_of_rsa",
+"patterns": [
+"How does RSA work?",
+"How does RSA Algorithm work?",
+"Explain the working of RSA.",
+"Explain the working of RSA Algorithm.",
+"What are the steps involved in RSA?",
+"What are the steps involved in RSA Algorithm?"
+],
+"responses": [
+"RSA (Rivest-Shamir-Adleman) is an asymmetric encryption algorithm that operates based on the mathematical properties of large prime numbers. Here are steps involved in RSA: I. Key Generation: Step 1. Select two primes P and Q such that P is not equals to Q. Step 2. Calculate N = P * Q. Step 3. Calculate phi(N) = (P-1) * (Q-1). Step 4. Select integer E, where GCD of phi(N) = 1 and 1 < e < phi(N). Step 5. Calculate D, where D = E^-1 * mod(phi(N)). Step 6. Public key = [E,N]. Step 7. Private key = [D,N]. II. Encryption: Step 1. Plaintext (M), where M < N. Step 2. Ciphertext (C), where C =  M^E * mod(N). III. Decryption: Step 1. Ciphertext (C).	Step 2. Plaintext (M), where M = C^D * mod(N). Example of RSA Algorithm: Let P = 11 & Q = 13; N = P * Q = 143; phi(N) = (P-1) * (Q-1) = 120; Let E = 23; D = E^-1 * mod(phi(N)) = 47; Let plaintext (M) be 7; Then ciphertext (C) = M^E * mod(N) = 2"
+]
+}
+]
+}
+
+{
+"intents": [
+{
+"tag": "rsa_key_generation",
+"patterns": [
+"RSA key generation?",
+"Explain RSA keygeneration",
+"Tell me about RSA key generation.",
+"Can you provide an overview of RSA key generation?"
+],
+"responses": [
+"Here are steps of Key Generation: Step 1. Select two primes P and Q such that P is not equals to Q. Step 2. Calculate N = P * Q Step 3. Calculate phi(N) = (P-1) * (Q-1) Step 4. Select integer E, where GCD of phi(N) = 1 and 1 < e < phi(N) Step 5. Calculate D, where D = E^-1 * mod(phi(N)) Step 6. Public key = [E,N]. Step 7. Private key = [D,N]"
+]
+}
+]
+}

@@ -1,0 +1,21 @@
+{
+"intents": [
+{
+"tag": "electronic_code_block",
+"patterns": [
+"What is ECB mode?",
+"What is Electronic Code Block mode?",
+"Explain ECB mode.",
+"Explain Electronic Code Block mode.",
+"Tell me about ECB mode.",
+"Tell me about Electronic Code Block mode.",
+"Can you provide an overview of ECB mode?",
+"Can you provide an overview of Electronic Code Block mode?"
+],
+"responses": [
+"Electronic Code Block mode a.k.a ECB is one of the simplest modes of operations in block ciphers suitable for small number of blocks. In ECB, message is divided into blocks and each block is encrypted independently. A single key is used to encrypt every block and if a plaintext block appears more than once in a message sop does the encrypted block. It is worth nothing that ECB is vulnerable to cut paste attacks."
+]
+}
+]
+}
+

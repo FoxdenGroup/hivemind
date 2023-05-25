@@ -1,0 +1,21 @@
+{
+"intents": [
+{
+"tag": "cipher_block_chaining",
+"patterns": [
+"What is CBC mode?",
+"What is Cipher Block Chaining mode?",
+"Explain CBC mode.",
+"Explain Cipher Block Chaining mode.",
+"Tell me about CBC mode.",
+"Tell me about Cipher Block Chaining mode.",
+"Can you provide an overview of CBC mode?",
+"Can you provide an overview of Cipher Block Chaining mode?"
+],
+"responses": [
+"Cipher block chaining a.k.a CBC is a common chaining mode in Block ciphers where the previous block's ciphertext is XORed with the current block's plaintext before encryption. In CBC, message is broken into blocks and each previous cipher block is chained with current plaintext block. A same key is used for all the blocks however an initialization vector (IV) is used for the first block and relies heavily on XORing the blocks"
+]
+}
+]
+}
+
